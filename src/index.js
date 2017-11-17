@@ -20,7 +20,7 @@ ReactDOM.render((
   <HashRouter>
     <Switch>
       <Route path="/" name="login" component={Login}/>
-      <Route path="/" name="Home" component={Full}/>
+      <Route path="/#" name="Home" component={Full}/>
     </Switch>
   </HashRouter>
 ), document.getElementById('root'));
