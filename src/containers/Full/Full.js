@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/';
 import Dashboard from '../../views/Dashboard/';
 import PublicProduct from '../../views/Stastics/';
 import PrivateProduct from '../../views/Stastics/';
+import Login from '../../views/Pages/'
 
 
 class Full extends Component {
@@ -22,7 +23,7 @@ class Full extends Component {
           <main className="main">
             <Breadcrumb />
             <Container fluid>
-              <Switch>
+              <Switch> 
                 <Route path="/dashboard" name="Dashboard" component={Dashboard} />
                 <Route path="/public_founds" name="public_founds" component={PublicProduct} />
                 <Route path="/private_founds" name="private_founds" component={PrivateProduct} />
