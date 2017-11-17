@@ -1,0 +1,6 @@
+{
+    "name": "Stastics",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./PublicProduct.js"
+}
